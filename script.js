@@ -23,6 +23,18 @@ let imageSrc = productDataWomens.map( d => d.imageSrc);
 	div.innerHTML = productDataWomens[imageSrc].imageSrc
 });
 
+[].forEach.call(document.querySelectorAll('.modal-div h2'), function(div, index) {
+	div.innerHTML = productDataWomens[index].productTitle
+});
+
+[].forEach.call(document.querySelectorAll('.modal-div h3'), function(div, index) {
+	div.innerHTML = ' £' +  productDataWomens[index].price
+});
+
+[].forEach.call(document.querySelectorAll('.modal-div button a'), function(div, index) {
+	div.innerHTML = productDataWomens[index].productUrl
+});
+
 
 
 let thumbnails = document.getElementsByClassName('thumbnail');
