@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Carousel</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Chosen For You</h1>
+    <h2>We think you will love these</h2>
+    <main>
+
+        <!-- Search box -->
+            <div class="search-box">
+                <form action="" onsubmit="return false">
+                    <input type="text" id="search" placeholder="Search Product">
+                        <!-- <button id="btn-search">Search</button> -->
+                </form>
+            </div>
+            <div class="filter-box">
+                    <a href="#" class="btn active" data-filter="all">All</a>
+                    <a href="#" class="btn" data-filter="dress">Dress</a>
+                    <a href="#" class="btn" data-filter="coat">Coat</a>
+                    <a href="#" class="btn" data-filter="gown">Gown</a>
+                    <a href="#" class="btn" data-filter="jeans">Jeans</a>
+            </div>
+
+
+        <div class="slide-container">
+        <img id="slide-left" class="arrow" src="images/arrow-left.png">
+            <section class="container" id="slider">
+        
+
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/619712403.jpg" alt="">
+                <div id="result"></div>
+                <div class="product-image">
+                </div>
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <button id="modal-btn" class="button">Click Here</button>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/635105501.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/634018201.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/619712401.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/635654901.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/619653214.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/623140201.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/632207701.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/631197208.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/616323901.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/631910801.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/629029201.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/631911801.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/637716701.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/619712438.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media3.newlookassets.com/i/newlook/629877202.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/619653202.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/623185401.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/620187701.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="product-details">
+                <img src="https://media2.newlookassets.com/i/newlook/633518801.jpg" alt="">
+                <div class="main-div">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <br>
+                <p> <span>$39.99</span> $29.99</p>
+                <a href="#">Click Here</a>
+            </div>
+        </div>
+
+        <div id="my-modal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+        </div>
+
+    </section>
+    <img id="slide-right" class="arrow" src="images/arrow-right.png">
+</div>
+</main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
